@@ -106,7 +106,6 @@ nextBtn.addEventListener(
             clearInterval(countdown);
             timerDisplay();
             if(questionCount==1){
-                alert(questionCount+1);
                 displayContainer.style.background='blue';
             }
             else if(questionCount>2){
