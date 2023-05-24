@@ -102,7 +102,7 @@ nextBtn.addEventListener(
                 questionCount + 1 + " of " + quizArray.length + " Question";
             //display quiz
             quizDisplay(questionCount);
-            count = 11;
+            count = 31;
             clearInterval(countdown);
             timerDisplay();
             if(questionCount==1){
