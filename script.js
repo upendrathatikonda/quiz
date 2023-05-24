@@ -195,7 +195,7 @@ function initial() {
     quizContainer.innerHTML = "";
     questionCount = 0;
     scoreCount = 0;
-    count = 11;
+    count = 31;
     clearInterval(countdown);
     timerDisplay();
     quizCreator();
